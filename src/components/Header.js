@@ -1,9 +1,13 @@
-import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Header = () => {
   return (
-    <header className="header">
-      <img src="calculatrice.png" alt="" />
+    <header>
+      <FontAwesomeIcon
+        icon="fa-solid fa-calculator"
+        size="3x"
+        color="#5C48D3"
+      />
       <h1>React Counter</h1>
     </header>
   );
